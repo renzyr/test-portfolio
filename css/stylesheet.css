@@ -1,0 +1,40 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+#resume .fa {
+  transition: .3s transform ease-in-out;
+}
+#resume .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+div.major > :first-child:after {
+  content: '';
+  background-color: #ffffff;
+  display: block;
+  height: 5px;
+  margin: 0.325em 0 0.5em 0;
+  width: 100%;
+}
+
+.major p{
+    font-family: 'Montserrat';
+}
+
+
+.text-dark{
+  color: #2C3E50;
+}
+
+.hr-light{
+  color: #ffffff;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #2C3E50;
+}
+
+body{
+  overflow-x: hidden;
+}
